@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Pagina teste
+        </title>
+    </head>
+
+    <title>
+        Testando Title
+    </title>
+
+    <body>
+        <h1>
+            <p>
+                Página teste!
+            </p>
+        </h1>
+        <hr>
+        <h2>
+            <p>
+                Página teste!
+            </p>
+        </h2>
+        <h3>
+            <p>
+                Página teste!
+            </p>
+        </h3>
+        <form method="get">
+            <label>Nome:
+                <input name="submeter-nome" autocomplete="Nome">
+            </label>
+            <button>
+                Salvar
+            </button>
+        </form>
+        <form method="post">
+            <label>Nome:
+                <input name="submeter-sobrenome" autocomplete="Sobreome">
+            </label>
+            <button>
+                Salvar
+            </button>
+        </form>
+        <section id="midia">
+            <img>
+            <audio>
+                <a>
+                </a>
+            </audio>
+            <video>
+                <a>
+                </a>
+            </video>
+        </section>
+
+        <h4>
+            <p>
+                Página teste!
+            </p>
+        </h4>
+        <h5>
+            <ul>
+                <il>
+                    Página teste 1, 2, 3!
+                </il>
+            </ul>
+        </h5>
+        <h6>
+            <p>
+                Página teste!
+            </p>
+        </h6>
+    </body>
+</html>
