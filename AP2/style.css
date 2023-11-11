@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d2d2d2;
+}
+.body {
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container-cartao-saiba-mais {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container-cartao-saiba-mais:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#imagem-saiba-mais {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: auto;
+}
+
+h3, p {
+    margin: 10px 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botaoHomens {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaoMulheres {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaoTodos {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaoSair {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container-estilo {
+    width: 15em;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#titulo {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.saibaMais {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1em;
+    background-color: rgb(255, 242, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px;
+}
+.title-box {
+    flex-basis: 100%;
+    text-align: center;
+}
+.login-box {
+    flex-basis: 100%;
+    text-align: left;
+    color: #7c7c7c;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group input {
+    padding: 10px;
+    margin-right: 5px;
+}
+.input-group button {
+    padding: 10px;
+}
+.info-text {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+    .container {
+        justify-content: space-between;
+    }
+    .title-box, .login-box {
+        flex-basis: auto;
+    }
+    .login-box {
+        text-align: right;
+    }
+}
