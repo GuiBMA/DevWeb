@@ -151,10 +151,3 @@ buttonContainer.appendChild(botaoSair);
 header.appendChild(buttonContainer);
 
 body.prepend(header);
-
-// pegar_coisas(`${url}/all`).then(
-//     (entrada) => {
-//         for (atleta of entrada)
-//         {preenche(atleta)}
-//     }
-// );
